@@ -1,0 +1,123 @@
+@charset "UTF-8";
+     *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body
+        {
+            background-color: #b0e6dd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow-y: hidden;
+        }
+        .dopost
+        {
+            background-color: #fff;
+            width: auto;
+            height: auto;
+            padding: 5px 20px;
+            position: absolute;
+            border-radius: 10px;
+       
+            box-shadow: 15px 15px 30px 5px rgba(0, 0,0,0.5);
+            border:solid 1px black ;
+        }
+        .post-head
+        {
+            text-align: center;
+            font-size: 20px;
+            margin: 0px 20px 30px 20px;
+        }
+        form
+        {
+            display: flex;
+            flex-direction: column;
+        }
+        textarea
+        {
+            padding: 10px;
+            background-color:transparent;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        textarea:hover{
+            box-shadow: 0 5px 10px rgba(0, 0,0,0.5);
+    transform: scale(1.05);
+    border:solid 1px rgb(135, 134, 134) ;
+        }
+        ::placeholder
+        {
+            color: black;
+        }
+        #pic
+        {
+            background: transparent;
+            /*padding: 3px 6px;
+            border: 1px solid;
+            border-radius: 5px;
+            margin-bottom: 10px; */
+            border-radius: 10px;
+    width: 320px;
+    height: 35px;
+    margin: 10px 0px;
+    border: none;
+    transition: 1s;
+    box-shadow: 5px 5px 25px -10px rgba(0, 0,0,0.5);
+    border:solid 1px black ;
+        }
+
+        #pic:hover{
+            box-shadow: 0 5px 10px rgba(0, 0,0,0.5);
+    transform: scale(1.05);
+    border:solid 1px rgb(135, 134, 134) ;
+        }
+        .dopost #new
+        {
+            background-color: #2b2f33;
+            border: none;
+            width: 60px;
+            text-align: center;
+            padding: 5px;
+            text-transform: uppercase;
+            color:#fff;
+            border-radius: 5px;
+        }
+        .dopost a
+        {
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 15px;
+            padding: 3px 9px;
+            border-radius: 5px;
+            color: #fff;
+            background-color: #0e1011;
+        }
+        .post-btn
+        {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 10px 10px;
+
+        }
+        #cat
+        {
+            
+            border-radius: 10px;
+            width: 320px;
+            height: 30px;
+            margin: 10px 0px;
+            border: none;
+            background: transparent;
+            transition: 1s;
+            box-shadow: 5px 5px 25px -10px rgba(0, 0,0,0.5);
+            border:solid 1px black ;
+        }
+        #cat:hover{
+            box-shadow: 0 5px 10px rgba(0, 0,0,0.5);
+    transform: scale(1.05);
+    border:solid 1px rgb(135, 134, 134);}

@@ -1,0 +1,134 @@
+@charset "UTF-8";
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+body{
+    background-color:#b0e6dd;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-box{
+
+    width: 370px;
+    height: 550px;
+    padding: 5px 20px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 15px 15px 30px 5px rgba(0, 0,0,0.5);
+    border:solid 1px black ;
+}
+.logo{
+    text-align: center;
+    margin-top: 10px;
+}
+.logo span{
+    color:green;
+}
+label{
+    color: white;
+    font-weight: 600;
+    display: none;
+}
+input{
+    border-radius: 10px;
+    width: 320px;
+    height: 35px;
+    margin: 10px 0px;
+    border: none;
+    background: transparent;
+    transition: 1s;
+    box-shadow: 5px 5px 25px -10px rgba(0, 0,0,0.5);
+    border:solid 1px black ;
+}
+form{
+    margin-top: 45px;
+}
+input:hover{
+    box-shadow: 0 5px 10px rgba(0, 0,0,0.5);
+    transform: scale(1.05);
+    border:solid 1px rgb(135, 134, 134) ;
+}
+.info{
+    padding-left: 10px;
+}
+#reset{
+    width: 90px;
+    font-size: 15px;
+    border: none;
+    color: red;
+    margin-left: 40px;
+    border:solid 1px black ;
+
+}
+#submit{
+    width: 90px;
+    color: green;
+    font-size: 15px;
+    border: none;
+    margin-left: 40px;
+    border:solid 1px black ;
+}
+.login-page{
+    text-align: center;
+    margin-top: 5px;
+}
+.login-page a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    transition: 1.5s;
+}
+.login-page a:hover{
+    color: blue;
+    font-size: 18px;
+    font-weight: 800;
+    transform: scale(1.2);
+}
+::placeholder{
+    color: black;
+    opacity: 1;
+}
+.logo .orange{
+    border-top: 2px solid orangered;
+    color: black;
+}
+.logo .green{
+    border-bottom: 2px solid green;
+}
+@media(max-width:800px){
+    .main-box{
+        width: 370px;
+        height: 620px;
+    }
+    .logo{
+        font-size: 20px;
+    }
+    input{
+        width: 330px;
+        height: 40px;
+        margin-top: 13px;
+    }
+    #reset{
+        width: 100px;
+        font-size: 16px;
+        margin-left: 35px;
+    
+    }
+    #submit{
+        width: 100px;
+        color: green;
+        font-size: 16px;
+        border: none;
+        margin-left: 40px;
+    }
+    a{
+        font-size: 20px;
+    }}
